@@ -1,0 +1,7 @@
+---
+baseurl: "http://readthesource.github.io"
+languageCode: "en-us"
+title: "readthesource"
+Taxonomies:
+  tense: "tense"
+---

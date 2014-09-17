@@ -1,0 +1,93 @@
+<div class="hangout">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <iframe width="853"
+                height="480"
+                src="//www.youtube.com/embed/{{ .Params.youtube }}"
+                frameborder="0"
+                allowfullscreen>
+        </iframe>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="hangout-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+
+
+
+        <ul class="list-inline pull-right hangout-links">
+          {{ if isset .Params "youtube" }}
+            <li>
+              <a href="http://youtu.be/{{ .Params.youtube }}">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+            </li>
+          {{ end }}
+
+          {{ if isset .Params "repository" }}
+            <li>
+              <a href="{{ .Params.repository }}">
+                <i class="fa fa-code"></i>
+              </a>
+            </li>
+          {{ end }}
+
+          {{ if isset .Params "hackernews" }}
+            <li>
+              <a href="https://news.ycombinator.com/item?id={{ .Params.hackernews }}">
+                <i class="fa fa-hacker-news"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+
+
+
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p class="small">
+          <strong>{{ .Date.Format "Mon, Jan 2, 2006" }}</strong>
+          – {{ .Description | safeHtml }}
+        </p>
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="participants">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <ul class="list-inline text-center">
+          {{ range $info := .Params.participants }}
+          <li>
+            <a href="">
+              <img class="img-circle img-thumbnail"
+                   src="{{ $info.avatar }}"
+                   width="60"
+                   height="60"
+                   alt="{{ $info.name }}">
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>

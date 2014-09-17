@@ -1,0 +1,29 @@
+<a name="videos"></a>
+<div class="hangouts">
+  <div class="container">
+
+    <div class="row heading-row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2>Hangout Videos</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <table class="table">
+          <tbody>
+            {{ range $key, $taxonomy := .Site.Taxonomies.tense }}
+              {{ if eq $key "past" }}
+                {{ range $taxonomy.Pages.ByDate.Reverse }}
+                  {{ partial "hangouts.html" . }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+

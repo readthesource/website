@@ -1,0 +1,21 @@
+{
+  "name": "readthesource",
+  "version": "0.0.0",
+  "authors": [
+    "Christian Smith <smith@anvil.io>"
+  ],
+  "description": "readthesource website",
+  "license": "All rights reserved",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "static/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "font-awesome": "~4.2.0"
+  }
+}
