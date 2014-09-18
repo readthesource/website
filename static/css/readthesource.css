@@ -133,8 +133,8 @@ h1 a, h2 a, h3 a {
   color: #CCC;
 }
 
-.subscribe input {
-  width: 60% !important;
+.subscribe #mce-EMAIL {
+  width: 63% !important;
 }
 
 .subscribe .help-block {
