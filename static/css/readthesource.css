@@ -2,7 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo);
 
 body {
-  font-family: "Open Sans"
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-size: 14px;
+  line-height: 20px;
 }
 
 h1, h2, h3 {
@@ -167,6 +169,10 @@ h1 a, h2 a, h3 a {
 
 .hangout-links {
   margin-top: 10px;
+}
+
+.hangout-info .hangout-links {
+  margin-top: 25px;
 }
 
 .youtube-play {

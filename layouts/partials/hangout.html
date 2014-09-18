@@ -26,7 +26,7 @@
         <ul class="list-inline pull-right hangout-links">
           {{ if isset .Params "youtube" }}
             <li>
-              <a href="http://youtu.be/{{ .Params.youtube }}">
+              <a class="youtube-play" href="http://youtu.be/{{ .Params.youtube }}">
                 <i class="fa fa-youtube-play"></i>
               </a>
             </li>
@@ -34,7 +34,7 @@
 
           {{ if isset .Params "repository" }}
             <li>
-              <a href="{{ .Params.repository }}">
+              <a class="repository" href="{{ .Params.repository }}">
                 <i class="fa fa-code"></i>
               </a>
             </li>
@@ -42,7 +42,7 @@
 
           {{ if isset .Params "hackernews" }}
             <li>
-              <a href="https://news.ycombinator.com/item?id={{ .Params.hackernews }}">
+              <a class="hackernews" href="https://news.ycombinator.com/item?id={{ .Params.hackernews }}">
                 <i class="fa fa-hacker-news"></i>
               </a>
             </li>
