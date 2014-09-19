@@ -6,16 +6,15 @@
               {{ if eq $key "present" }}
                 {{ range first 1 $taxonomy.Pages }}
                   <h1>{{ .Title }}</h1>
-                  <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+                  <h4>{{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
                   <ul class="list-inline">
                     {{ range $info := .Params.participants }}
                       <li>
-                        <img class="img-circle img-thumbnail"
+                        <img class="img-circle img-thumbnail img-responsive"
                              src="{{ $info.avatar }}"
-                             width="100"
-                             height="100"
                              alt="{{ $info.name }}">
-                        <p class="small">{{ $info.name }}</p>
+                        <br>
+                        <span class="small">{{ $info.name }}</span>
                       </li>
                     {{ end }}
                   </ul>
