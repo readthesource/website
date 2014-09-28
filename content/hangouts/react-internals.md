@@ -4,6 +4,7 @@ description: "In JavaScript you create a virtual DOM, react diffs changes betwee
 date: 2014-09-04T16:00:00Z
 tense: ["past"]
 youtube: "FAgSdSikSCc"
+googleplus: "https://plus.google.com/b/105627089988168968277/events/cpuemsgmdltri201f25ud3fsnn8"
 repository: "https://github.com/facebook/react"
 hackernews: "8274133"
 participants:

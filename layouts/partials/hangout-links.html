@@ -1,0 +1,41 @@
+<ul class="list-inline pull-right hangout-links">
+  {{ if isset .Params "repository" }}
+    <li>
+      <a class="repository"
+         href="{{ .Params.repository }}"
+         target="_blank">
+            <i class="fa fa-code"></i>
+      </a>
+    </li>
+  {{ end }}
+
+  {{ if isset .Params "googleplus" }}
+    <li>
+      <a class="googleplus"
+         href="{{ .Params.googleplus }}"
+         target="_blank">
+            <i class="fa fa-google-plus"></i>
+      </a>
+    </li>
+  {{ end }}
+
+  {{ if isset .Params "youtube" }}
+    <li>
+      <a class="youtube-play"
+         href="http://youtu.be/{{ .Params.youtube }}"
+         target="_blank">
+            <i class="fa fa-youtube-play"></i>
+      </a>
+    </li>
+  {{ end }}
+
+  {{ if isset .Params "hackernews" }}
+    <li>
+      <a class="hackernews"
+         href="https://news.ycombinator.com/item?id={{ .Params.hackernews }}"
+         target="_blank">
+            <i class="fa fa-hacker-news"></i>
+      </a>
+    </li>
+  {{ end }}
+</ul>
