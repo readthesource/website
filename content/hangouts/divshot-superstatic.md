@@ -6,6 +6,7 @@ description: "<a href=\"https://github.com/divshot/superstatic\" target=\"_blank
 youtube: "jeFYQ0z8FC4"
 googleplus: "https://plus.google.com/events/chdpb7af4742m6em3j73hgvccks"
 repository: "https://github.com/divshot/superstatic"
+hackernews: "8407843"
 tense: ["present"]
 participants:
   1:
