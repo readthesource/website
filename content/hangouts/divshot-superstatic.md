@@ -6,7 +6,7 @@ description: "<a href=\"https://github.com/divshot/superstatic\" target=\"_blank
 youtube: "jeFYQ0z8FC4"
 googleplus: "https://plus.google.com/events/chdpb7af4742m6em3j73hgvccks"
 repository: "https://github.com/divshot/superstatic"
-tense: ["future", "present"]
+tense: ["present"]
 participants:
   1:
     name: "Scott Corgan"
@@ -21,6 +21,9 @@ participants:
     name: "Erik Isaksen"
     url: "---"
     avatar: "https://pbs.twimg.com/profile_images/477429289151787009/iGNukk9x.jpeg"
+  4:
+    name: Oakley Hall
+    avatar: https://pbs.twimg.com/profile_images/456404494843011072/55seQVAP_400x400.jpeg
 
 ---
 
