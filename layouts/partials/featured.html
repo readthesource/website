@@ -8,6 +8,24 @@
                   <h1>{{ .Title }}</h1>
                   <h4>{{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
                   <ul class="list-inline">
+                    {{ range $info := .Params.guests }}
+                      <li>
+                        <img class="img-circle img-thumbnail img-responsive"
+                             src="{{ $info.avatar }}"
+                             alt="{{ $info.name }}">
+                        <br>
+                        <span class="small">{{ $info.name }}</span>
+                      </li>
+                    {{ end }}
+                    {{ range $info := .Params.hosts }}
+                      <li>
+                        <img class="img-circle img-thumbnail img-responsive"
+                             src="{{ $info.avatar }}"
+                             alt="{{ $info.name }}">
+                        <br>
+                        <span class="small">{{ $info.name }}</span>
+                      </li>
+                    {{ end }}
                     {{ range $info := .Params.participants }}
                       <li>
                         <img class="img-circle img-thumbnail img-responsive"

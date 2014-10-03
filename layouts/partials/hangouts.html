@@ -16,20 +16,39 @@
 
     <!-- Participants -->
     <ul class="list-inline">
+      {{ range $info := .Params.guests }}
+        <li>
+          <a href="">
+            <img class="img-circle"
+                 src="{{ $info.avatar }}"
+                 width="30"
+                 height="30"
+                 alt="{{ $info.name }}">
+          </a>
+        </li>
+      {{ end }}
+      {{ range $info := .Params.hosts }}
+        <li>
+          <a href="">
+            <img class="img-circle"
+                 src="{{ $info.avatar }}"
+                 width="30"
+                 height="30"
+                 alt="{{ $info.name }}">
+          </a>
+        </li>
+      {{ end }}
       {{ range $info := .Params.participants }}
-      <li>
-        <a href="">
-          <img class="img-circle"
-               src="{{ $info.avatar }}"
-               width="30"
-               height="30"
-               alt="{{ $info.name }}">
-        </a>
-      </li>
+        <li>
+          <a href="">
+            <img class="img-circle"
+                 src="{{ $info.avatar }}"
+                 width="30"
+                 height="30"
+                 alt="{{ $info.name }}">
+          </a>
+        </li>
       {{ end }}
     </ul>
-
-
-
   </td>
 </tr>

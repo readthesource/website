@@ -7,16 +7,18 @@ youtube: "FAgSdSikSCc"
 googleplus: "https://plus.google.com/b/105627089988168968277/events/cpuemsgmdltri201f25ud3fsnn8"
 repository: "https://github.com/facebook/react"
 hackernews: "8274133"
-participants:
+guests:
   0:
     name: Nick Niemeir
     avatar: https://pbs.twimg.com/profile_images/496528143008542720/ayPM6CHw.jpeg
+hosts:
   1:
     name: Christian Smith
     avatar: https://pbs.twimg.com/profile_images/2824302893/c2711652fb0e430b86c801d46f739638.png
   2:
     name: Erik Isaksen
     avatar: https://pbs.twimg.com/profile_images/477429289151787009/iGNukk9x.jpeg
+participants:
 ---
 
 React: a robust functional view layer.

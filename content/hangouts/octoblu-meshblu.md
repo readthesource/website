@@ -6,11 +6,12 @@ youtube: "v8OX8z1vvpc"
 googleplus: "https://plus.google.com/events/c9m5r35k4rgrli515gcd854es6g"
 repository: "https://github.com/octoblu/meshblu"
 tense: ["future"]
-participants:
+guests:
   1:
     name: "Chris Matthieu"
     twitter: "https://twitter.com/chrismatthieu"
-    avatar: "https://pbs.twimg.com/profile_images/918916153/SuperChrisSmall.jpg"
+    avatar: "https://avatars1.githubusercontent.com/u/12523?v=2&s=400"
+hosts:
   2:
     name: "Christian Smith"
     url: "http://anvil.io"
@@ -18,6 +19,7 @@ participants:
   3:
     name: "Erik Isaksen"
     avatar: "https://pbs.twimg.com/profile_images/477429289151787009/iGNukk9x.jpeg"
+participants:
 
 ---
 

@@ -7,13 +7,14 @@ youtube: "jeFYQ0z8FC4"
 googleplus: "https://plus.google.com/events/chdpb7af4742m6em3j73hgvccks"
 repository: "https://github.com/divshot/superstatic"
 hackernews: "8407843"
-tense: ["present"]
-participants:
+tense: ["past", "present"]
+guests:
   1:
     name: "Scott Corgan"
     github: "https://github.com/scottcorgan"
     website: ""
     avatar: "https://pbs.twimg.com/profile_images/467509826449186816/2SKIpA3W.jpeg"
+hosts:
   2:
     name: "Christian Smith"
     url: "http://anvil.io"
@@ -22,6 +23,7 @@ participants:
     name: "Erik Isaksen"
     url: "---"
     avatar: "https://pbs.twimg.com/profile_images/477429289151787009/iGNukk9x.jpeg"
+participants:
   4:
     name: Oakley Hall
     avatar: https://pbs.twimg.com/profile_images/456404494843011072/55seQVAP_400x400.jpeg
