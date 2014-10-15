@@ -7,7 +7,7 @@ youtube: "jeFYQ0z8FC4"
 googleplus: "https://plus.google.com/events/chdpb7af4742m6em3j73hgvccks"
 repository: "https://github.com/divshot/superstatic"
 hackernews: "8407843"
-tense: ["past", "present"]
+tense: ["past"]
 guests:
   1:
     name: "Scott Corgan"

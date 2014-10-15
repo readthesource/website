@@ -5,7 +5,7 @@ description: "Meshblu, codenamed SkyNet.im, is an open source machine-to-machine
 youtube: "v8OX8z1vvpc"
 googleplus: "https://plus.google.com/events/c9m5r35k4rgrli515gcd854es6g"
 repository: "https://github.com/octoblu/meshblu"
-tense: ["future"]
+tense: ["present","future"]
 guests:
   1:
     name: "Chris Matthieu"
