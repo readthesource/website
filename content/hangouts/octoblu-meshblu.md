@@ -5,12 +5,16 @@ description: "Meshblu, codenamed SkyNet.im, is an open source machine-to-machine
 youtube: "v8OX8z1vvpc"
 googleplus: "https://plus.google.com/events/c9m5r35k4rgrli515gcd854es6g"
 repository: "https://github.com/octoblu/meshblu"
-tense: ["present","future"]
+tense: ["past", "present"]
 guests:
   1:
     name: "Chris Matthieu"
     twitter: "https://twitter.com/chrismatthieu"
     avatar: "https://avatars1.githubusercontent.com/u/12523?v=2&s=400"
+  2:
+    name: "Jade Meskill"
+    twitter: "https://twitter.com/iamruinous"
+    avatar: "https://avatars2.githubusercontent.com/u/2108?v=2&s=400"
 hosts:
   2:
     name: "Christian Smith"
