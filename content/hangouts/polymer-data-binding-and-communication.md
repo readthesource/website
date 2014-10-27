@@ -11,7 +11,7 @@ guests:
 hosts:
   0:
     name: Danny Blue
-    avatar: https://pbs.twimg.com/profile_images/439532597375696897/AQDSMXnL_400x400.jpeg
+    avatar: https://avatars2.githubusercontent.com/u/6563621?v=2&s=400
   3:
     name: Christian Smith
     avatar: https://pbs.twimg.com/profile_images/2824302893/c2711652fb0e430b86c801d46f739638.png
