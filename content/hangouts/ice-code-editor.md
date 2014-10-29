@@ -5,6 +5,7 @@ description: "<a href=\"https://github.com/eee-c/ice-code-editor\" target=\"_bla
 youtube: "iuf21D1mo_0"
 googleplus: "https://plus.google.com/events/cbtp0jskeu3v996bhb0c1g4m08c"
 repository: "https://github.com/eee-c/ice-code-editor"
+hackernews: "8527784"
 tense: ["present", "future"]
 guests:
   1:
