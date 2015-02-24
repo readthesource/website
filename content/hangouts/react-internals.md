@@ -17,7 +17,7 @@ hosts:
     avatar: https://pbs.twimg.com/profile_images/2824302893/c2711652fb0e430b86c801d46f739638.png
   2:
     name: Erik Isaksen
-    avatar: https://pbs.twimg.com/profile_images/477429289151787009/iGNukk9x.jpeg
+    avatar: "https://pbs.twimg.com/profile_images/558386132573233152/0oAL915b.jpeg"
 participants:
 ---
 

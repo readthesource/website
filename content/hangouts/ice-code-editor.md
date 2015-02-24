@@ -6,7 +6,7 @@ youtube: "iuf21D1mo_0"
 googleplus: "https://plus.google.com/events/cbtp0jskeu3v996bhb0c1g4m08c"
 repository: "https://github.com/eee-c/ice-code-editor"
 hackernews: "8527784"
-tense: ["present", "future"]
+tense: ["past"]
 guests:
   1:
     name: "Chris Strom"
@@ -21,7 +21,7 @@ hosts:
   3:
     name: "Erik Isaksen"
     url: "---"
-    avatar: "https://pbs.twimg.com/profile_images/477429289151787009/iGNukk9x.jpeg"
+    avatar: "https://pbs.twimg.com/profile_images/558386132573233152/0oAL915b.jpeg"
 participants:
 
 ---

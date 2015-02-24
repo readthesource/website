@@ -7,7 +7,7 @@ youtube: "Yjkp2iZsITs"
 guests:
   2:
     name: Erik Isaksen
-    avatar: https://pbs.twimg.com/profile_images/477429289151787009/iGNukk9x.jpeg
+    avatar: "https://pbs.twimg.com/profile_images/558386132573233152/0oAL915b.jpeg"
 hosts:
   0:
     name: Danny Blue
