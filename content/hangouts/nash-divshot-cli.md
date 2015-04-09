@@ -5,7 +5,7 @@ description: "<a href=\"https://divshot.com/\" target=\"_blank\">Divshot</a> pro
 youtube: "Cv7L7va9ptw"
 googleplus: "https://plus.google.com/u/0/events/csmtt6gnoof74nvo7mheclmp67s"
 repository: "https://github.com/scottcorgan/nash"
-tense: ["present", "future"]
+tense: ["past"]
 guests:
   1:
     name: "Scott Corgan"

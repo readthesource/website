@@ -5,7 +5,7 @@ description: "AngularJS includes support for accessibility, through ng-aria and 
 youtube: "tlXNsw7xrKo"
 googleplus: "https://plus.google.com/u/0/events/caiqjegp38iassfa8ci0nv1mrok"
 repository: "https://github.com/angular/angular.js/blob/master/src/ngAria/aria.js"
-tense: ["future"]
+tense: ["future", "present"]
 guests:
   1:
     name: "Marcy Sutton"
@@ -13,13 +13,13 @@ guests:
     avatar: "https://pbs.twimg.com/profile_images/548345046609567744/MtIs_8pD.jpeg"
 hosts:
   2:
-    name: "Christian Smith"
-    url: "http://anvil.io"
-    avatar: "https://pbs.twimg.com/profile_images/2824302893/c2711652fb0e430b86c801d46f739638.png"
-  3:
     name: "Erik Isaksen"
     url: "---"
     avatar: "https://pbs.twimg.com/profile_images/558386132573233152/0oAL915b.jpeg"
+  3:
+    name: "Christian Smith"
+    url: "http://anvil.io"
+    avatar: "https://pbs.twimg.com/profile_images/2824302893/c2711652fb0e430b86c801d46f739638.png"
 participants:
 
 ---
