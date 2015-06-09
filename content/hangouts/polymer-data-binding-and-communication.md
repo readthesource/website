@@ -21,7 +21,7 @@ participants:
     avatar: https://lh3.googleusercontent.com/-_pPWBQLUBrk/UfxKjCh4W0I/AAAAAAAAATg/TdZz-pGK2Jw/w1332-h1328-no/rob-dodson-picture.jpg
   4:
     name: Oakley Hall
-    avatar: https://pbs.twimg.com/profile_images/456404494843011072/55seQVAP_400x400.jpeg
+    avatar: https://pbs.twimg.com/profile_images/593548516858945537/8FEVT7fs.jpg
 
 ---
 Building a Polymer Web Component application I encountered a few challenges with passing data between various levels of nested components. In this ReadTheSource session we will look at some of the solutions I implemented and the code behind them. Some worked well and some just didn't work.

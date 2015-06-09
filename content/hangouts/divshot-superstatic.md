@@ -22,11 +22,10 @@ hosts:
   3:
     name: "Erik Isaksen"
     avatar: "https://pbs.twimg.com/profile_images/558386132573233152/0oAL915b.jpeg"
-    url: "---"
 participants:
   4:
     name: Oakley Hall
-    avatar: https://pbs.twimg.com/profile_images/456404494843011072/55seQVAP_400x400.jpeg
+    avatar: https://pbs.twimg.com/profile_images/593548516858945537/8FEVT7fs.jpg
 
 ---
 
